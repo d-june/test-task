@@ -1,0 +1,25 @@
+.post {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    gap: 20px;
+    height: 50px;
+
+    h2 {
+        flex: 1;
+        white-space: nowrap;
+    }
+
+    &:not-last-child {
+        margin-bottom: 20px;
+    }
+}
+
+.postBody {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,25 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:active {
+        text-decoration: none;
+    }
+}
+
+li {
+    list-style: none;
+}
